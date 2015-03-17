@@ -28,6 +28,8 @@ Requires:	python-stevedore
 Requires:	python-anyjson
 Requires:	python-httplib2
 Requires:	python-lxml
+Requires:	python-oslo-i18n
+Requires:	python-oslo-utils
 
 %description
 A python and command line client library for Ironic.

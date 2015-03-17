@@ -1,14 +1,14 @@
-From 03de324ed30440fa5eeaf27086982293c0e630c5 Mon Sep 17 00:00:00 2001
-From: Angus Thomas <athomas@redhat.com>
-Date: Thu, 16 Oct 2014 18:07:36 +0100
-Subject: [PATCH] Remove pbr dep
+From 5e2c3049f8e6c9c7aa20c00111af1d354c9f1da9 Mon Sep 17 00:00:00 2001
+From: Dmitry Tantsur <dtantsur@redhat.com>
+Date: Tue, 17 Mar 2015 09:52:35 +0100
+Subject: [PATCH] Remove pbr dependency
 
 ---
  ironicclient/__init__.py | 3 +--
  1 file changed, 1 insertion(+), 2 deletions(-)
 
 diff --git a/ironicclient/__init__.py b/ironicclient/__init__.py
-index 73028d4..0b5a2ef 100644
+index e01624c..7460981 100644
 --- a/ironicclient/__init__.py
 +++ b/ironicclient/__init__.py
 @@ -15,13 +15,12 @@
@@ -25,7 +25,4 @@ index 73028d4..0b5a2ef 100644
 +__version__ = "REDHATIRONICCLIENTVERSION"
  
  __all__ = [
-         'client',
--- 
-1.9.3
-
+     'client',
