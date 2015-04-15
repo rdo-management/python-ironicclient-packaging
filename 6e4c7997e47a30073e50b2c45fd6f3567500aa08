@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a106d94_98ff40aa",
+        "filename": "python-ironicclient.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 1003460
+      },
+      "writtenOn": "2015-04-15T15:01:24Z",
+      "side": 1,
+      "message": "looks like we\u0027re using tabs everywhere here. tabs-vs-spaces will give warning in rpmlint IIRC",
+      "revId": "6e4c7997e47a30073e50b2c45fd6f3567500aa08",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
