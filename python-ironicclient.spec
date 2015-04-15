@@ -22,7 +22,8 @@ BuildRequires:	python-pbr
 BuildRequires:	python-setuptools
 
 Requires:	python-prettytable
-Requires:	python-keystoneclient
+Requires:   python-keystoneclient
+Requires:	python-openstackclient
 Requires:	python-six
 Requires:	python-stevedore
 Requires:	python-anyjson
